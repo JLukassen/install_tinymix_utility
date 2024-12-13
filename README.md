@@ -1,7 +1,6 @@
 # install_tinymix_utility
 An update to a simple Magisk module that installs the tinymix executible
 
-
 ### Description:
 * Tinymix is a small system utility, adopted to Android from Linux, which allows to modify advanced system audio settings, otherwise not accessible, via terminal commands. This process is very complicated and requires prior knowledge of shell scripts. Although it can be used by advanced users as it is, via terminal interface, this module is intended to be used along with Tinymix Manager apk for better experience. 
  
@@ -29,6 +28,7 @@ An update to a simple Magisk module that installs the tinymix executible
 
 ### Installation instructions:
 * Flash module in Magisk, Kernelsu, Apatch, and reboot system.
+* From root directory, you can also run $> zip -r -T tinymix.zip * and create your own flashable zip
  
 ### Troubleshooting:
 * If bootloop happen, reboot into recovery and disable module. Use recovery with the manager of Magisk modules, such as the last version of Orangefox. 
