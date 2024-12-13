@@ -18,7 +18,7 @@ An update to a simple Magisk module that installs the tinymix executible compati
 * Android 4.1+
 *  Apatch (I haven't tested it on anything else)
 * Tested on Pixel 8a Android 15 Stock Rom
-* Output works with Tensor M3, the apk had a a couple sections DSP and R report unsupported. 
+* Output works with Tensor M3, the apk had a couple sections DSP and R report unsupported. 
 * Will work with most Qalcomm processors, not so sure about MTK.
 
 ### Preliminary:
