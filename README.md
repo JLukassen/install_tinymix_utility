@@ -27,7 +27,7 @@ An update to a simple Magisk module that installs the tinymix executible compati
 * If you don't have such custom recovery, make full system and data backup or at least vendor backup. 
 
 ### Installation instructions:
-* Flash module in Magisk, Kernelsu, Apatch, and reboot system.
+* Flash module in Apatch and reboot system.
 * From root directory, you can run '$> zip -r -T tinymix.zip *' to create your own flashable zip
  
 ### Troubleshooting:
