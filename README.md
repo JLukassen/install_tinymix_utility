@@ -1,5 +1,5 @@
 # install_tinymix_utility
-An update to a simple Magisk module that installs the tinymix executible
+An update to a simple Magisk module that installs the tinymix executible compatible with apatch
 
 ### Description:
 * Tinymix is a small system utility, adopted to Android from Linux, which allows to modify advanced system audio settings, otherwise not accessible, via terminal commands. This process is very complicated and requires prior knowledge of shell scripts. Although it can be used by advanced users as it is, via terminal interface, this module is intended to be used along with Tinymix Manager apk for better experience. 
@@ -16,9 +16,9 @@ An update to a simple Magisk module that installs the tinymix executible
 
 ### Requirements: 
 * Android 4.1+
-* Magisk 20.4+ Kernelsu 0.6.6+ Apatch
-* Tested on Pixel 8a Android 15 Stock AOSP Rom
-* Works with Tensor M3
+*  Apatch (I haven't tested it on anything else)
+* Tested on Pixel 8a Android 15 Stock Rom
+* Output works with Tensor M3, the apk had a couple sections DSP and R report unsupported. 
 * Will work with most Qalcomm processors, not so sure about MTK.
 
 ### Preliminary:
@@ -27,8 +27,8 @@ An update to a simple Magisk module that installs the tinymix executible
 * If you don't have such custom recovery, make full system and data backup or at least vendor backup. 
 
 ### Installation instructions:
-* Flash module in Magisk, Kernelsu, Apatch, and reboot system.
-* From root directory, you can also run $> zip -r -T tinymix.zip * and create your own flashable zip
+* Flash module in Apatch and reboot system.
+* From root directory, you can run '$> zip -r -T tinymix.zip *' to create your own flashable zip
  
 ### Troubleshooting:
 * If bootloop happen, reboot into recovery and disable module. Use recovery with the manager of Magisk modules, such as the last version of Orangefox. 
