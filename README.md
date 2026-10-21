@@ -45,7 +45,7 @@ An update to a simple Magisk module that installs the tinymix executible compati
 ### Change Log:
 * Version: 1.0
 * Initial build (Tested with Apatch_Next)
-* Release date 12.13.2042
+* Release date 12.13.2024
 
 ## Source:
 [|| Github module link ||](https://github.com/JLukassen/install_tinymix_utility/ "Title")
